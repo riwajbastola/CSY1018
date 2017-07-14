@@ -1,0 +1,40 @@
+body{
+	margin-top:69px;
+	z-index: 5;
+	display: flex;
+    min-height: 100vh;
+    flex-direction: column;
+}
+
+form{
+	background: linear-gradient(silver, grey);
+	margin-top: 7px;
+
+}
+fieldset{
+	width: 90%;
+	margin-bottom: 3px; 
+}
+legend{
+	text-decoration: underline;
+    font-size: 1.5em;
+}
+label{
+	font-family: cursive;
+
+}
+
+input[type=text]{
+color: crimson;
+background: darkgrey;
+width: 40%;
+height: 10%;
+font-family: sans-serif;
+padding: 1%; 
+}
+header{
+	font-size: 26px;
+	color: white;
+	text-align: center;
+	font-family: sans-serif;
+}

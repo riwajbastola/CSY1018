@@ -1,0 +1,35 @@
+body{
+margin-top:69px;
+	z-index: 5;
+	display: flex;
+    min-height: 100vh;
+    flex-direction: column;
+}
+section{
+	display: flex;
+	flex-wrap: wrap;
+	background-color: silver;
+	margin-left: 3%;
+	margin-right: 3%; 
+}
+
+section img{
+	width: 300px;
+	height:300px;
+	flex: 1 1 0;
+	padding: 40px;
+	transition: width 2s, height 2s, transform 2s;
+
+}
+
+section img:hover{
+	width: 350px;
+	height: 350px;
+	transform-style: preserve-3d;
+}
+header{
+	width: 100%;
+	text-align: center;
+	font-family: sans-serif;
+	font-size: 26px;
+}

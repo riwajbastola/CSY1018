@@ -1,0 +1,42 @@
+body{
+	margin-top:69px;
+	z-index: 5;
+	display: flex;
+    min-height: 100vh;
+    flex-direction: column;
+    
+}
+header{
+	width: 100%;
+	text-align: center;
+    font-size: 1.7em;
+    font-family: sans-serif;
+    margin-top: 7px;
+}
+
+.container{
+	box-shadow: 5px 5px 8px 8px;
+	margin-top: 12px;
+	background-color: beige;
+	padding: 10px; 
+	display: flex;
+	flex-direction: row;
+
+}
+.bio{
+	width: 70%;
+	margin: 30px;
+}
+
+.bio p{
+	margin: 20px;
+	font-size: 20px;
+	padding-top: 9px;
+}
+.bioimg{
+	width: 30%;
+}
+.bioimg img{
+	width:100%;
+	
+}
